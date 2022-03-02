@@ -78,6 +78,7 @@ namespace Oskeyboard
             if (await FlashOutForm())
             {
                 this.Close();
+                Application.Exit();
             }
         }
 
